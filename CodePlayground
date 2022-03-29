@@ -1,0 +1,22 @@
+print("I want to show strings, integers, floats, variables,\nand concatenation in this project.")
+
+print("This is a string. It looks like \"print('blah')\"")
+
+print("+ * /")
+
+print(4 + 2)
+print(4 * 2)
+print(4 / 2)
+print(4 - 2)
+
+print((21 * 4) / 2)
+
+
+print(5 ** (4 * (2 * 4)))
+
+name = input("State Your Name: ")
+age = input("State Your Age: ")
+identifier = input("State Your Business: ")
+print('Hello ' + name +". You are " + age + "." "Lastly, you are here for " + identifier + ".")
+
+print("And, most of all...\n" + (42 * (name + " IS AWESOME.\n")))
