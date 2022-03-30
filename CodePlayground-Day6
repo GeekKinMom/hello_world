@@ -1,0 +1,22 @@
+# I got inspired by a Twitter #100DaysofCode post (https://twitter.com/ChiragPallan/status/1509139317331214336/photo/1)
+# I am learning about ' re.findall ' because I kind of understood the code until that part. SO I GOOGLED IT.
+# Here's what I'm reading now: (https://www.geeksforgeeks.org/python-regex-re-search-vs-re-findall/)
+# BECAUSE OF THIS, I remember how to leave comments. My code *should* be commentated herein. 
+
+# Learning About re.search() and re.findall()
+#  \   Used to drop the special meaning of character
+#    following it (discussed below)
+#  []  Represent a character class
+#  ^   Matches the beginning
+#  $   Matches the end
+#  .   Matches any character except newline
+#  ?   Matches zero or one occurrence.
+#  |   Means OR (Matches with any of the characters
+#      separated by it.
+#  *   Any number of occurrences (including 0 occurrences)
+#  +   One or more occurrences
+#  {}  Indicate number of occurrences of a preceding RE 
+#      to match.
+#  ()  Enclose a group of REs
+
+# " Module Regular Expressions (RE) specifies a set of strings (pattern) that matches it. "
