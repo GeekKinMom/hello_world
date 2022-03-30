@@ -22,3 +22,59 @@
 # " Module Regular Expressions (RE) specifies a set of strings (pattern) that matches it. " I'll come back to this topic. The above table is useful :)
 
 # I'm heading back to the topic: BOOLEAN on Sololearn. I'll be back to show code bits. 
+
+# Over Under  If Else
+y = 19
+if y >= 18:
+      print("You are an adult.")
+else:
+      print("You are a minor.")
+      
+grade = 62
+if (grade>=70):
+  print("You've Passed!")
+else:
+  print("You've Failed!")
+  
+# If Else and elif
+  
+  num = 3
+if num == 1:
+  print("One")
+else: 
+  if num == 2:
+    print("Two")
+  else: 
+    if num == 3: 
+      print("Three")
+    else: 
+      print("Something else")
+      
+num = 3
+if num == 1:
+  print("One")
+elif num == 2:
+  print("Two")
+elif num == 3: 
+  print("Three")
+else: 
+  print("Something else")
+
+# Practice
+
+age = int(input())
+if age >= 18:
+      print("Allowed")
+else:
+      print("Sorry")
+
+
+# Operators and Boolean Doubles
+
+print(1 == 1 and 2 == 2)
+
+print(1 == 1 and 2 == 3)
+
+print(1 != 1 and 2 == 2)
+
+print(2 < 1 and 3 > 6)
