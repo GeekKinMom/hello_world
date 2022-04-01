@@ -1,0 +1,114 @@
+x = int(input("What's x? "))
+y = int(input("What's y? "))
+
+if x < y:
+  print("x is less than y")
+if x > y:
+  print("x is greater than y")
+if x == y
+  print("x is equal to y")
+else:
+  print("Oops")
+
+
+#StartedInTheMiddle
+
+x = int(input("What's x? "))
+y = int(input("What's y? "))
+
+print(x + y)
+
+if x < y:
+  print("x is less than y")
+if x > y:
+  print("x is greater than y")
+if x == y:
+  print("x is equal to y")
+
+#ELIF
+
+x = int(input("What's x? "))
+y = int(input("What's y? "))
+
+if x < y:
+  print("x is less than y")
+elif x > y:
+  print("x is greater than y")
+elif x == y:
+  print("x is equal to y")
+
+# ELIF: ends with ELSE:
+
+z = float(input("Gimme a WHOLE number, watch me float it "))
+print(z)
+
+score = int(input("Score: "))
+if score >= 90:
+  print("Grade: A")
+elif score >= 80:
+  print("Grade: B")
+elif score >= 70:
+  print("Grade: C")
+elif score >= 60:
+  print("Grade: D")
+else:
+  print("Grade: F")
+
+# Parity Program- New Symbols
+# + - * / % 
+
+#Is this number even or odd?
+
+x = int(input("What's X? "))
+
+if x % 2 == 0
+  print("Even")
+else:
+  print("Odd")
+
+# Make our own FUNCTION
+
+def main():
+  x = int(input("What's X? "))
+  if is_even(x)
+    print("Even")
+else:
+  print("Odd")
+
+def is_even(n):
+  if n % 2 == 0:
+    return True
+  else:
+    return False  
+    
+main()
+
+# MAKE IT BETTER - "Pythonic= the way you do things in python"
+
+def main():
+  x = int(input("What's X? "))
+  if is_even(x)
+    print("Even")
+else:
+  print("Odd")
+
+def is_even(n):
+  return True if n % 2 == 0 else False
+  
+main()
+
+#Better?
+
+def main():
+  x = int(input("What's X? "))
+  if is_even(x)
+    print("Even")
+else:
+  print("Odd")
+
+def is_even(n):
+  return n % 2 == 0
+  
+main()
+
+#FUTURE - Review FUNCTIONS at beginning of video and review LOOPS at the 3:45:00 mark
